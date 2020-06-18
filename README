@@ -1,1 +1,14 @@
-CHUANGJIANXINWENJIAN
+本仓库代码功能：基于vue前端框架实现word文件的上传和解析功能；基于python的flask框架实现后台接口，接收前端文件流、解析文件并将结果返回前端的功能。
+
+本仓库包括两部分代码：前端upload_web，python后台upload_back
+
+前端环境要求：
+  1、安装nodejs
+  2、cmd打开命令行，在upload_web目录下执行npm install，下载依赖扩展包；
+  3、继续运行命令npm run dev即可启动前端页面；
+  4、发布程序命令：npm run build:stage，发布路径默认dist。
+  
+后端环境要求：
+  1、安装python2或python3，并安装依赖包flask；
+  2、cmd打开命令行，在upload_back目录下执行python upload.py，即可启动后台接收文件。
+  
